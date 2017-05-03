@@ -1,0 +1,71 @@
+/* Here goes your CSS */
+body{
+  background: #020B2E;
+  font-family: 'Open Sans', sans-serif;;
+  font-weight: 300;
+  color: white;
+  font-size: 15px;
+  line-height: 1.6em;
+  text-align: center;
+}
+
+table > tbody > tr > td > p{
+  font-family: 'Open Sans', sans-serif;;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+  color: black;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+h1, h2, h3{
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-top: 20px;
+}
+
+h1{
+  font-size: 22px;
+}
+
+h2{
+  font-size: 18px;
+}
+
+h3{
+  font-size: 16px;
+}
+
+a{
+  color: #5AFAFF;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #68FF83;
+  text-decoration: none;
+}
+
+.container{
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card{
+  background: white;
+  color: black;
+  padding: 25px;
+  margin: 10px;
+  box-shadow: 2px, 2px, 3px grey;
+  text-align: center;
+}
+
+.text-center{
+  text-align: center;
+}
+
+#img-circle{
+  border-radius: 100%;
+}
